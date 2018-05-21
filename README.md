@@ -1,4 +1,4 @@
-# CiscoTelePresenceEndpoints
+# Cisco TelePresence Endpoints; easy dial button and post call survey
 I'm pulling together code I've seen to try and make a simplified Cisco 
 endpoint experience and get Customer Satisfaction results, then push 
 the results someplace so they can be analized. 
@@ -13,4 +13,10 @@ I have borrowed samples from:
     
  Someday I'll learn to properly attribute.
   
-  
+ bjn_dial.js and dialbutton.xml work together to put a BlueJeans button in the "Out of Call" panel. Press the button and you will be promted to enter the BlueJeans meeting ID to join the call. You will also be prompted for an optional passcode in case you are the moderator.
+ 
+ customersatisfaction.js is a basic survey ar teh end of the call. I'm not using it at the moment
+ 
+ customersatisfaction_with_input.js is a better survey that will ask for a problem descrition on bad calls and let the caller enter an email address.
+ 
+ customersatisfaction_feedback_destination.js will hopefully pust the feedback entries as a JSON file to a server
