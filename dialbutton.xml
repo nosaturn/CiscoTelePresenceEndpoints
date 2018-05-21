@@ -1,0 +1,11 @@
+<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>bjn_dial</PanelId>
+    <Type>Home</Type>
+    <Icon>Camera</Icon>
+    <Order>1</Order>
+    <Color>#12A8F1</Color>
+    <Name>BlueJeans</Name>
+  </Panel>
+</Extensions>
