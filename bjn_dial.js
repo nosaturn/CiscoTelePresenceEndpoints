@@ -55,7 +55,7 @@ function handleMeetingIdEntry() {
                 FeedbackId: "bjn_dial_passcode",
                 Title: "Join BlueJeans Meeting",
                 Text: "Passcode (if none, press Join):",
-                Duration: 60,
+                Duration: 30,
                 InputType: "PIN",
                 SubmitText: "Join"
             });
