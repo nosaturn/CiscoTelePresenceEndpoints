@@ -1,3 +1,8 @@
+// Developed by Brian Haley (nosaturn@gmail.com) on my own time and with my own devices and accounts.
+// You are welcome to use this for free and without warrenty.
+// 
+// dialog time out is controled by "Duration"
+
 const xapi = require('xapi');
 
 const bridgeAddress = "bjn.vc";
@@ -38,7 +43,7 @@ function handlePanelButtonPress() {
                 FeedbackId: "bjn_dial_meetingId",
                 Title: "Join BlueJeans Meeting",
                 Text: "Meeting ID:",
-                Duration: 60,
+                Duration: 90,
                 InputType: "Numeric",
                 SubmitText: "Next"
             });
@@ -55,7 +60,7 @@ function handleMeetingIdEntry() {
                 FeedbackId: "bjn_dial_passcode",
                 Title: "Join BlueJeans Meeting",
                 Text: "Passcode (if none, press Join):",
-                Duration: 30,
+                Duration: 60,
                 InputType: "PIN",
                 SubmitText: "Join"
             });
