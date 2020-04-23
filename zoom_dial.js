@@ -1,7 +1,7 @@
 // Developed by Brian Haley (nosaturn@gmail.com) on my own time and with my own devices and accounts.
-// You are welcome to use this for free and without warrenty.
+// You are welcome to use this for free and without warranty.
 // 
-// dialog time out is controled by "Duration"
+// dialog time out is controlled by "Duration"
 
 const xapi = require('xapi');
 
