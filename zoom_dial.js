@@ -1,3 +1,6 @@
+// Developed by Brian Haley (nosaturn@gmail.com) on my own time and with my own devices and accounts.
+// You are welcome to use this for free and without warrenty.
+
 const xapi = require('xapi');
 
 const bridgeAddress = "zoomcrc.com";
