@@ -17,7 +17,7 @@ I have borrowed samples from:
  
  NEW
  
- Zoom_Dial.js and Zoom_dialbutton.xml is an updated version of the BlueJeans button, but works for Zoom instead. It will ask for the Meeting Number  and the password, then form the dialstring based on https://support.zoom.us/hc/en-us/articles/202405539-H-323-SIP-Room-Connector-Dial-Strings. 
+ Zoom_Dial.js and Zoom_dialbutton.xml is an updated version of the BlueJeans button, but works for Zoom instead. It will ask for the Meeting Number  and the password, then from the dialstring based on https://support.zoom.us/hc/en-us/articles/202405539-H-323-SIP-Room-Connector-Dial-Strings. 
  
  
  
