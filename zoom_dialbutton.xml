@@ -1,11 +1,11 @@
 <Extensions>
-  <Version>1.5</Version>
+  <Version>1.6</Version>
   <Panel>
     <PanelId>Zoom_dial</PanelId>
     <Type>Home</Type>
     <Icon>Camera</Icon>
     <Order>1</Order>
-    <Color>#12A8F1</Color>
-    <Name>Join Zoom Meeting</Name>
+    <Color>#2D8CFF</Color>
+    <Name>Join Zoom</Name>
   </Panel>
 </Extensions>
