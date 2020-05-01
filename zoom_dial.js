@@ -1,5 +1,6 @@
 // Developed by Brian Haley (nosaturn@gmail.com) on my own time and with my own devices and accounts.
 // You are welcome to use this for free and without warranty.
+// Version 1.6
 // 
 // dialog time out is controlled by "Duration"
 
@@ -41,11 +42,12 @@ function handlePanelButtonPress() {
         if (event.PanelId === panelId) {
             xapi.command("UserInterface Message TextInput Display", {
                 FeedbackId: "Zoom_dial_meetingId",
-                Title: "Join Zoom Meeting",
-                Text: "Meeting ID:",
-                Duration: 90,
                 InputType: "Numeric",
-                SubmitText: "Next"
+                Title: "Join Zoom Meeting",
+                Text: "Please enter the Zoom Meeting ID:",
+                Placeholder:"Meeting ID",
+                SubmitText: "Next",
+                Duration: 90,
             });
         }
     });
@@ -58,11 +60,12 @@ function handleMeetingIdEntry() {
             
             xapi.command("UserInterface Message TextInput Display", {
                 FeedbackId: "Zoom_dial_password",
+                InputType: "Password",
                 Title: "Join Zoom Meeting",
-                Text: "Password (if none, press Join):",
+                Text: "Please enter the Password (or press Join):",
+                Placeholder:"Password",
+                SubmitText: "Join",
                 Duration: 60,
-                InputType: "Numeric",
-                SubmitText: "Join"
             });
         }
     });
